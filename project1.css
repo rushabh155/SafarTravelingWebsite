@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Changa+One&family=Dancing+Script&family=Delicious+Handrawn&family=Lily+Script+One&family=Lobster&display=swap');
+ .title{
+    color:#5713b0;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Alkatra', cursive;
+    letter-spacing: 4px;
+    margin-left: 30px;
+ }
+
+ #navmain{
+    background-image: linear-gradient(to right,#88d1f2,#0a6791,#56b6e3,#4296bd,#369bc9,#2083b0,#17a3e3,#0d84ba,#0b48a3);
+ }
+ .navopt{
+   font-size: 20px;
+   color: black;
+ }
+
+ .navopt:hover{
+   color: blue;
+ }
+
+ .dropdown-item{
+   background-color: darkcyan;
+   font-size: 20px;
+ }
+
+ .dropdown-item:hover{
+   color: red;
+   font-weight: bold;
+ }
+
+ .navigation{
+   position:fixed;
+   top: 0px;
+   z-index: 1;
+   width: 100%;
+   
+ }
+
+ .sliderimg{
+
+   margin-top: 70px;
+ }
+
+ .h{
+  margin-left: 40%;
+  margin-bottom: 20px;
+   margin-top: 30px;
+   font-family: Arial Rounded MT Bold;
+   font-weight: bold;
+   color: #1e67e6;
+   text-decoration: underline;
+ }
+
+ .footerbody{
+  height: 250px;
+  width: 100%;
+  background-color: grey;
+ }
+
+ .mostvisitedgoa{
+  height: 400px;
+  width: 400px;
+  margin-top: 30px;
+  border-radius: 500px;
+
+ }
+
+ .mostvisitedgoa:hover{
+
+  height: 400px;
+  width: 400px;
+  border-radius: 0px;
+  transition-duration: 1s;
+ 
+ }
+
+ .contentgoa{
+  margin-top: 40px;
+  text-align: justify;
+  text-indent: 50px;
+  font-size: 20px;
+ }
+
+ .h1photo{
+   margin-left: 830px;
+   margin-top: 40px;
+   font-family: Arial Rounded MT Bold;
+   color: #1e67e6;
+ }
+
+ .cards{
+  margin-top: 50px;
+  margin-left: 50px;
+ }
+
+ .card2{
+  display: inline-flexbox;
+ }
+
+ .h2{
+  font-size: 50px;
+  margin-left: 40%;
+  margin-bottom: 50px;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   font-family: Arial Rounded MT Bold;
+   font-weight: bold;
+   color: black;
+   word-spacing: 15px;
+ }
+
+ .card{
+  margin-bottom: 100px;
+ }
+
+ .fcontent{
+  /* padding-top: 10px; */
+  margin-left: 550px;
+  font-weight: bold;
+ }
+
+ .f2{
+     margin-left: 200px;
+ }
+
+ .f3{
+  margin-left: 200px;
+}
+
+.fcontent2{
+  margin-top: 20px;
+  margin-left: 550px;
+  font-weight: bold;
+
+ }
+
+ .fcontent3{
+  margin-top: 20px;
+  margin-left: 550px;
+  font-weight: bold;
+
+ }
+
+ .footerimg{
+  margin-left: 50px;
+  margin-top: 10px;
+ }
+
+ .fheading{
+  margin-left: 50px;
+  font-weight: bold;
+   font-family: Arial Rounded MT Bold;
+  
+ }
+
+  .demo{
+  font-size: 30px;
+  animation-name: blink;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+  50%{opacity:0}
+}
